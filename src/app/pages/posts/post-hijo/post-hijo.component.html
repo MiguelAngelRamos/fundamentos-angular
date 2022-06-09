@@ -1,4 +1,7 @@
-<div class="col">
+<div class="col" (click)="onClick()">
   <h3>{{ mensaje.title.charAt(0).toUpperCase() + mensaje.title.slice(1)}}</h3>
+  
   <p>{{ mensaje.body }}</p>
+
+  <hr>
 </div>

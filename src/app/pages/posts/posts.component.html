@@ -3,5 +3,7 @@
   <app-post-hijo 
     *ngFor="let m of mensajes"
     [mensaje]="m"
+    (clickPost)="recibiendoId($event)"
   ></app-post-hijo>
+ 
 </div>

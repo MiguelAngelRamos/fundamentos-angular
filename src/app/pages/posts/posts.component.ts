@@ -20,4 +20,8 @@ export class PostsComponent implements OnInit {
     })
   }
 
+  recibiendoId(id: number) {
+    console.log('El id recibido es: ' + id);
+  }
+
 }
