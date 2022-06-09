@@ -9,6 +9,7 @@ import { DataService } from 'src/app/services/data.service';
 export class PostsComponent implements OnInit {
 
   mensajes: any [] =[];
+
   constructor(private dataService: DataService) { }
 
 

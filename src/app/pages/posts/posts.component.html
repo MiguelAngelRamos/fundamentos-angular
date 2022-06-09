@@ -1,1 +1,7 @@
-<p>posts works! con lazy loading</p>
+<div class="container">
+  <h2>Lista de Posts</h2>
+  <app-post-hijo 
+    *ngFor="let m of mensajes"
+    [mensaje]="m"
+  ></app-post-hijo>
+</div>
